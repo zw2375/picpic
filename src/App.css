@@ -7,11 +7,11 @@
 .Question {
   display: flex;
   flex-direction: column;
-  padding: 350px;
+  padding: 300px;
   background-image: url(https://images.unsplash.com/photo-1461083542063-9873020926b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80);
   background-size:100% 100%;
   font-family: fantasy;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .Choice {
@@ -22,11 +22,13 @@
 .button {
   color: #494949 ;
   text-transform: uppercase;
-  background: white ;
-  padding: 10px;
-  border: 2px solid  rgb(153, 211, 238);
+  background: transparent;
+  padding: 5px;
+  border: 2px solid ;
+  border-color: rgb(181, 237, 255);
   transition: all 0.4s ease 0s;
-  border-radius: 0px;
+  border-radius: 15px;
+  font-size: 30px;
   }
 
   .button:hover {
@@ -35,3 +37,37 @@
     border-color: #B5E2FA ;
     transition: all 0.4s ease 0s;
     }
+
+    .UploadButton {
+     padding: 500px;
+    }
+
+    #components-layout-demo-custom-trigger .trigger {
+      font-size: 18px;
+      line-height: 64px;
+      padding: 0 24px;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    
+    #components-layout-demo-custom-trigger .trigger:hover {
+      color: #e0f1f5;
+    }
+    
+    #components-layout-demo-custom-trigger .logo {
+      height: 32px;
+      background: rgba(255, 255, 255, 0.2);
+      margin: 16px;
+    }
+
+ 
+
+  h1.Welcome{
+    padding: 20px;
+    font-family: fantasy;
+    background-image: url(https://images.unsplash.com/photo-1487383298905-ee8a6b373ff9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    font-size: 50px;
+    color: #ffffff;
+  }
+
+  
