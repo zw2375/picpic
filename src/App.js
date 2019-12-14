@@ -84,9 +84,9 @@ function UploadPage(props) {
       }
       if (info.file.status === 'done') {
         message.success(`${info.file.name} file uploaded successfully`);
-      } else if (info.file.status === 'error') {
-        message.error(`${info.file.name} file upload failed.`);
-      }
+      } //else if (info.file.status === 'error') {
+        //message.error(`${info.file.name} file upload failed.`);
+      //}
     }
   };
 
@@ -188,11 +188,11 @@ function handleSearchTermChanged(e) {
           </Menu.Item>
           <Menu.Item key="2">
             <Icon type="" />
-            <span>friends</span>
+            <span>Friends</span>
           </Menu.Item>
           <Menu.Item key="3">
             <Icon type="" />
-            <span>screen shot </span>
+            <span>Screen Shots </span>
           </Menu.Item>
         </Menu>
       </Sider>
